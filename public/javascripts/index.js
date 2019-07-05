@@ -9,7 +9,7 @@ function loveTriangle(array = []) {
         }
     }
 
-    return count/3;
+    return Math.floor(count/3);
 }
 
 console.log(loveTriangle([2, 3, 1, 5, 6, 4, 8, 9, 7, 11, 12, 10, 13, 9, 13, 2, 15, 13, 12, 11]));
