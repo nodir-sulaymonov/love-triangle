@@ -1,14 +1,22 @@
 {
-  "name": "love-treangle",
-  "version": "0.0.0",
-  "private": true,
+  "name": "love-triangle",
+  "version": "1.0.0",
+  "description": "Love triangle",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "mocha test.js"
   },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "morgan": "~1.9.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankouskia/love-triangle.git"
+  },
+  "author": "Aliaksandr Yankouski <aleksandr.yankovskiy@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yankouskia/love-triangle/issues"
+  },
+  "homepage": "https://github.com/yankouskia/love-triangle#readme",
+  "devDependencies": {
+    "mocha": "^5.0.1"
   }
 }
